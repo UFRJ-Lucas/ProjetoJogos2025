@@ -22,9 +22,22 @@ label prologue_awakening:
             "Room"
 
         "Can I get help?":
-            play sound "audio/sfx/alarm_clock.ogg" loop fadein 1.5
-
-            "Alarm"
+            jump choice_help
 
         "There is no use in trying again.":
             "Oblivion - Ending"
+
+label choice_help:
+    play sound "audio/sfx/alarm_clock.ogg" loop fadein 1.5
+
+    menu:
+        "An alarm is ringing, some may say it would be luck. But for you, it is like a memory. It reminds you of the sound of..."
+
+        "A bell.":
+            "Church night"
+        
+        "My phone.":
+            "Room morning"
+        
+        "A heartbeat.":
+            "Hospital night"
