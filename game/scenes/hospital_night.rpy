@@ -36,7 +36,7 @@ label hospital:
     "You hear a repetitive  and subtle sound of equipment and machinery constantly beeping."
 
     voice "audio/narrador/hospital/02.wav"
-    "The air, is cold. And sterile. Cleaning products and other chemicals are mixed with a frail scent of metal."
+    "The air is cold, and sterile. Cleaning products and other chemicals are mixed with a frail scent of metal."
 
     voice "audio/narrador/hospital/03.wav"
     "Now that you identified the odor of the metal, you can almost taste it, if you concentrate long enough."
@@ -84,14 +84,13 @@ label choice:
 
 label way_out:
 
-    voice "audio/narrador/hospital/17.wav"
+    voice "audio/narrador/hospital/20.wav"
     "Concentrate! You can find a way out, what do you want to focus on?"
 
     menu:
 
         "The sound of the steps":
-            #jump plaza_morning
-            pass
+            jump plaza_day
         
         "The cold in the air":
             #jump park_night
