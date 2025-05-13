@@ -1,7 +1,3 @@
-default count = 0
-default calling = True
-default body = True
-
 label plaza_day:
     play sound "audio/music/plaza_ambience.mp3" loop fadein 1.5
 

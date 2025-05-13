@@ -1,7 +1,3 @@
-default count = 0
-default calling = True
-default body = True
-
 label hospital:
     play sound "audio/music/hospital_ambience.mp3" loop fadein 1.5
 
