@@ -8,6 +8,10 @@ define p = Character("Protagonist")
 
 # The game starts here.
 
+default count = 0
+default calling = True
+default body = True
+
 label start:
 
     jump prologue_awakening
