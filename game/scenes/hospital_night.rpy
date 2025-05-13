@@ -93,15 +93,14 @@ label way_out:
             jump plaza_day
         
         "The cold in the air":
-            #jump park_night
-            pass
+            jump park_morning
         
         "The sound of the machines.":
             jump voyage
         
         "The smell of metal":
-            #"city"
-            pass
+            jump building
+            
 
 label voyage:
     voice "audio/narrador/hospital/12.wav"

@@ -2,7 +2,7 @@ default count = 0
 default calling = True
 default body = True
 
-label park:
+label plaza_day:
     play sound "audio/music/plaza_ambience.mp3" loop fadein 1.5
 
     # Primeira piscada (rápida visão do parque)
@@ -22,7 +22,7 @@ label park:
     "Laughter echoes from a distance — muffled, like through water."
 
     voice "audio/narrador/plaza/04.wav"
-    "Children run, chasing soap bubbles that vanish before reaching the sky."
+    "Children run, chasing bubbles that vanish before reaching the sky."
 
     voice "audio/narrador/plaza/05.wav"
     "You sit on a worn bench, wood splintered by time, and something aches in your chest."
@@ -51,16 +51,16 @@ label book:
 
             voice "audio/narrador/plaza/13.wav"
             "You saw them almost everyday..."
-            jump office
+            jump building
 
         "Close it and leave it there.":
             voice "audio/narrador/plaza/14.wav"
             "Something inside you recognizes the utter uninportance of it all."
-            voice "audio/narrador/plaza/16.wav" #faltando
+            voice "audio/narrador/plaza/16.wav" 
             "The sun that burnt slighly, now is colder and golder. This trigger some emotions."
             voice "audio/narrador/plaza/15.wav"
             "Even the sounds of the plaza fizzle, the water in the fountain is completely still."
-            voice "audio/narrador/plaza/17.wav" #faltando
+            voice "audio/narrador/plaza/17.wav" 
             "The water, the sun. Makes you think of that place..."
             jump lake
         
