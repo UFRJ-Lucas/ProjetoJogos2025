@@ -3,7 +3,7 @@ default calling = True
 default body = True
 
 label hospital:
-    play sound "audio/music/hospital_sound.mp3" loop fadein 1.5
+    play sound "audio/music/hospital_ambience.mp3" loop fadein 1.5
 
     # Cena inicial (tela preta)
     scene black

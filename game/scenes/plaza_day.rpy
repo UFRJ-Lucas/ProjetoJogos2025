@@ -3,7 +3,7 @@ default calling = True
 default body = True
 
 label park:
-    play sound "audio/music/hospital_sound.mp3" loop fadein 1.5
+    play sound "audio/music/plaza_ambience.mp3" loop fadein 1.5
 
     # Primeira piscada (rápida visão do parque)
     scene plaza_day
