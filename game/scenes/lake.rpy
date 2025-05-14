@@ -1,8 +1,8 @@
 label park:
-    play lake "audio/music/lake_ambience.mp3" loop fadein 1.5
+    play sound "audio/music/lake_ambience.mp3" loop fadein 1.5 #achar um arquivo
 
     # Primeira piscada (rápida visão do parque)
-    scene lake_day
+    scene lake_day #botar o arquivo
     with dissolve
     $ renpy.pause(0.3)
 
@@ -61,6 +61,7 @@ label strangers:
 
             voice "audio/narrador/building/15.wav" #faltando
             "And it's like you could see those tall buildings."
+            jump city
         
         
         

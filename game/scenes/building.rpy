@@ -1,8 +1,8 @@
 label building:
-    play sound "audio/music/building_ambience.mp3" loop fadein 1.5
+    play sound "audio/music/building_ambience.mp3" loop fadein 1.5 #botar o arquivo
 
     # Primeira piscada (rápida visão do parque)
-    scene building_day
+    scene building_day #trocar o arquivo
     with dissolve
     $ renpy.pause(0.3)
 
@@ -23,7 +23,7 @@ label building:
     voice "audio/narrador/building/11.wav" #faltando
     "The time here goes by, the lure of those display window may catch your atention for a little while."
 
-    scene building_night
+    scene building_night #botar o arquivo
     with dissolve
     $ renpy.pause(0.3)
 
@@ -56,6 +56,14 @@ label performance:
             voice "audio/narrador/building/10.wav" #faltando
             "When were the last time you were inside one of these?"
             jump theater
+
+        "The city center." if visit_city:
+            voice "audio/narrador/building/12.wav" #faltando
+            "This place is nothing special, indeed. There are countless of them throughout the city."
+            voice "audio/narrador/building/13.wav" #faltando
+            "Have you ever been to the city center at night?"
+            jump city_night
+
         
         
         
