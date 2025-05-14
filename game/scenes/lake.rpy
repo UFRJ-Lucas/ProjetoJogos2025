@@ -1,4 +1,4 @@
-label park:
+label lake:
     play sound "audio/music/lake_ambience.mp3" loop fadein 1.5 #achar um arquivo
 
     # Primeira piscada (rápida visão do parque)
@@ -39,7 +39,7 @@ label strangers:
 
             voice "audio/narrador/building/09.wav" #faltando
             "A frail memory, that comes in waves."
-            jump breach
+            jump beach
 
         "Could they be my family?.":
             voice "audio/narrador/lake/10.wav" #faltando
