@@ -11,6 +11,8 @@ define p = Character("Protagonist")
 default count = 0
 default calling = True
 default body = True
+default visit_city = False
+
 
 label start:
 

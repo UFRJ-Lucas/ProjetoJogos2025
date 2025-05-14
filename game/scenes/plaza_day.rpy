@@ -49,6 +49,20 @@ label book:
             "You saw them almost everyday..."
             jump building
 
+        "Try to draw something.":
+            voice "audio/narrador/plaza/18.wav" # faltando
+            "You pick a pencil and start thinking of ideas to sketch. Maybe that could take your mind off of... everything."
+
+            voice "audio/narrador/plaza/19.wav" # faltando
+            "Soon you start tracing faint shapes in the paper, but inspiration fails to strike you. Your mind is a blank."
+
+            voice "audio/narrador/plaza/20.wav" # faltando
+            "There was a place you would go whenever you found yourself in these kinds of situation."
+
+            voice "audio/narrador/plaza/21.wav" # faltando
+            "You knew that often times a nice warm cup of coffee would be enough to get your creative juices flowing again."
+            jump cafe
+
         "Close it and leave it there.":
             voice "audio/narrador/plaza/14.wav"
             "Something inside you recognizes the utter uninportance of it all."
