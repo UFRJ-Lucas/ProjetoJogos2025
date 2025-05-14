@@ -1,4 +1,5 @@
 label road:
+    play sound "audio/music/road_ambience.mp3" loop fadein 1.5
 
     # Primeira piscada (rápida visão da estrada)
     scene road_night
