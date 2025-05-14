@@ -12,6 +12,7 @@ default count = 0
 default calling = True
 default body = True
 default visit_city = False
+default road_peace = False
 
 
 label start:
