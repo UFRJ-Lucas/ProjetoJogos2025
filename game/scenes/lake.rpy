@@ -34,32 +34,32 @@ label strangers:
             voice "audio/narrador/lake/07.wav" #faltando
             "Are they? Remeber faces? Or names?"
 
-            voice "audio/narrador/building/08.wav" #faltando
+            voice "audio/narrador/lake/08.wav" #faltando
             "There is something that can explain you feeling like you know them:"
 
-            voice "audio/narrador/building/09.wav" #faltando
+            voice "audio/narrador/lake/09.wav" #faltando
             "A frail memory, that comes in waves."
             jump beach
 
-        "Could they be my family?.":
+        "Could they be my family?":
             voice "audio/narrador/lake/10.wav" #faltando
             "Are they? Remeber faces? Or names?"
 
-            voice "audio/narrador/building/11.wav" #faltando
+            voice "audio/narrador/lake/11.wav" #faltando
             "There is something that can explain you feeling like you know them:"
 
-            voice "audio/narrador/building/12.wav" #faltando
+            voice "audio/narrador/lake/12.wav" #faltando
             "A fleet memory, made with asphalt and covered in mist."
             jump road
 
         "I think they are just strangers.":
-            voice "audio/narrador/building/13.wav" #faltando
+            voice "audio/narrador/lake/13.wav" #faltando
             "You are familiar with people passing through you everyday, aren't you?"
 
-            voice "audio/narrador/building/14.wav" #faltando
+            voice "audio/narrador/lake/14.wav" #faltando
             "Paying atention to this makes you think about the horn of cars."
 
-            voice "audio/narrador/building/15.wav" #faltando
+            voice "audio/narrador/lake/15.wav" #faltando
             "And it's like you could see those tall buildings."
             jump city
         

@@ -13,7 +13,9 @@ default calling = True
 default body = True
 default visit_city = False
 default road_peace = False
-
+default monologue = False
+default play_saw = False
+default went_home = False
 
 label start:
 
