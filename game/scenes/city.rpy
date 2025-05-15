@@ -66,7 +66,7 @@ label city_night:
     $ renpy.pause(0.3)
 
     voice "audio/narrador/city/16.wav" #faltando
-    "And here you are again."
+    "Here you are again."
 
     voice "audio/narrador/city/17.wav" #faltando
     "But this time is very different. The city is dead."

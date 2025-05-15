@@ -105,7 +105,7 @@ label voyage:
     voice "audio/narrador/hospital/13.wav"
     "Closing your eyes is hard, but you can surely do it. Keep trying."
 
-    scene hispital_day
+    scene hospital_day
     with dissolve
     $ renpy.pause(0.3)
 
@@ -147,7 +147,10 @@ label limbo:
         "Is there hope?" if count == 3:
             voice "audio/narrador/hospital/17.wav"
             "Now there is only eternity."
-            return
+            jump bad_end_limbo
 
+label bad_end_limbo:
+    show black
+    with dissolve
 
-    
+    "{b}Ending 1 - Limbo{/b}"
