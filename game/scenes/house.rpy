@@ -56,7 +56,7 @@ label house:
     voice "audio/narrador/house/14.wav" # faltando
     "A mirror on the wall close by catches your attention."
 
-    if memories_visited >= 3:
+    if len(memories_visited) >= 3:
         jump good_end
     else:
         jump normal_end
