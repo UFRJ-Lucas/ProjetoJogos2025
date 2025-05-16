@@ -25,15 +25,18 @@ label prologue_awakening:
         p "What should I do?"
 
         "Let's keep trying!":
-            "Room"
-            return
+            scene black
+            with fade
+            jump room
 
         "Can I get help?":
             jump choice_help
 
         "There is no use in trying again.":
-            "Oblivion - Ending"
-            return
+            window hide
+            $ renpy.pause(1)
+            play sound "audio/sfx/clue_sfx.wav"
+            "{b}Ending 1 - Oblivion{/b}"
 
 label choice_help:
     play sound "audio/sfx/alarm_clock.ogg" loop fadein 1.5
@@ -44,11 +47,17 @@ label choice_help:
     menu:
 
         "A bell.":
-            "Church night"
+            scene black
+            with fade
+            jump church
         
         "My phone.":
-            "Room morning"
+            scene black
+            with fade
+            jump room
         
         "A heartbeat.":
+            scene black
+            with fade
             stop sound fadeout 1.0
             jump hospital
