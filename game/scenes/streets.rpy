@@ -38,7 +38,6 @@ label drive:
             with fade
             jump school
 
-
         "There are some things I need to do in the city center.":
             scene black
             with fade
@@ -49,5 +48,7 @@ label drive:
             with fade
             jump plaza
 
-
-    
+        "Somewhere away from the city.":
+            scene black
+            with fade
+            jump cabana
