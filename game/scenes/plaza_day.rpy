@@ -1,7 +1,7 @@
 label plaza_day:
     play sound "audio/music/plaza_ambience.mp3" loop fadein 1.5
 
-    # Primeira piscada (rápida visão do parque)
+    # Primeira piscada (rápida visão da praça)
     scene plaza_day
     with dissolve
     $ renpy.pause(0.3)
@@ -47,20 +47,24 @@ label book:
 
             voice "audio/narrador/plaza/13.wav"
             "You saw them almost everyday..."
+            scene black
+            with fade
             jump building
 
         "Try to draw something.":
-            voice "audio/narrador/plaza/18.wav" # faltando
+            voice "audio/narrador/plaza/18.wav" 
             "You pick a pencil and start thinking of ideas to sketch. Maybe that could take your mind off of... everything."
 
-            voice "audio/narrador/plaza/19.wav" # faltando
+            voice "audio/narrador/plaza/19.wav"
             "Soon you start tracing faint shapes in the paper, but inspiration fails to strike you. Your mind is a blank."
 
-            voice "audio/narrador/plaza/20.wav" # faltando
+            voice "audio/narrador/plaza/20.wav"
             "There was a place you would go whenever you found yourself in these kinds of situation."
 
-            voice "audio/narrador/plaza/21.wav" # faltando
+            voice "audio/narrador/plaza/21.wav"
             "You knew that often times a nice warm cup of coffee would be enough to get your creative juices flowing again."
+            scene black
+            with fade
             jump cafe
 
         "Close it and leave it there.":
@@ -72,6 +76,8 @@ label book:
             "Even the sounds of the plaza fizzle, the water in the fountain is completely still."
             voice "audio/narrador/plaza/17.wav" 
             "The water, the sun. Makes you think of that place..."
+            scene black
+            with fade
             jump lake
         
         

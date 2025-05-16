@@ -11,4 +11,5 @@ label altar:
     #fazer o personagem do padre. Adicionar novo dublador
 
     menu:
-        
+        "under construction":
+            return
