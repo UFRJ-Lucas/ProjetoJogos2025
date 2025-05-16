@@ -25,15 +25,14 @@ label prologue_awakening:
         p "What should I do?"
 
         "Let's keep trying!":
-            "Room"
+            "room"
             return
 
         "Can I get help?":
             jump choice_help
 
         "There is no use in trying again.":
-            "Oblivion - Ending"
-            return
+            "{b}Ending 1 - Oblivion{/b}"
 
 label choice_help:
     play sound "audio/sfx/alarm_clock.ogg" loop fadein 1.5
@@ -47,7 +46,7 @@ label choice_help:
             "Church night"
         
         "My phone.":
-            "Room morning"
+            "room morning"
         
         "A heartbeat.":
             stop sound fadeout 1.0
