@@ -93,6 +93,7 @@ label wild:
     window hide
     $ renpy.pause(1)
     play sound "audio/sfx/clue_sfx.wav"
-    "{b}Ending 6 - Wild at heart{/b}"
+    "{b}Ending 7 - Wild at heart{/b}"
+    return
 
     

@@ -117,7 +117,8 @@ label slumber:
     window hide
     $ renpy.pause(1)
     play sound "audio/sfx/clue_sfx.wav"
-    "{b}Ending 3 - Eternal Resting Place{/b}"
+    "{b}Ending 4 - Eternal Resting Place{/b}"
+    return
 
 
     

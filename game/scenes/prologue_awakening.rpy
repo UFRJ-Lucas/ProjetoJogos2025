@@ -37,6 +37,7 @@ label prologue_awakening:
             $ renpy.pause(1)
             play sound "audio/sfx/clue_sfx.wav"
             "{b}Ending 1 - Oblivion{/b}"
+            return
 
 label choice_help:
     play sound "audio/sfx/alarm_clock.ogg" loop fadein 1.5

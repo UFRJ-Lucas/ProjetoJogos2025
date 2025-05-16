@@ -153,4 +153,5 @@ label bad_end_limbo:
     show black
     with dissolve
 
-    "{b}Ending 1 - Limbo{/b}"
+    "{b}Ending 2 - Limbo{/b}"
+    return
