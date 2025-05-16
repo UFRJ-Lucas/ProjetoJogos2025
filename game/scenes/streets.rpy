@@ -26,7 +26,7 @@ label drive:
         "I wanna go home!":
             scene black
             with fade
-            jump room
+            jump house
 
         "To my job.":
             scene black

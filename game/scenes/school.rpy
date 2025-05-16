@@ -30,7 +30,7 @@ label school:
 
     scene black
     with fade
-    jump room
+    jump house
 
 
     

@@ -27,7 +27,7 @@ label prologue_awakening:
         "Let's keep trying!":
             scene black
             with fade
-            jump room
+            jump house
 
         "Can I get help?":
             jump choice_help
@@ -55,7 +55,7 @@ label choice_help:
         "My phone.":
             scene black
             with fade
-            jump room
+            jump house
         
         "A heartbeat.":
             scene black

@@ -53,7 +53,7 @@ label presence:
             "Nothing more fair than you wanting to go to your own."
             scene black
             with fade
-            jump room
+            jump house
 
         "I'm not feeling very well, I want to get out from here.":
             scene church
