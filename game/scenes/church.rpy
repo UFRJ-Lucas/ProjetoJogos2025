@@ -35,6 +35,8 @@ label church:
     voice "audio/narrador/church/08.wav"
     "You are not a vampire, you won't burn, but maybe you should move."
 
+    $ memories_visited.add("CHURCH_VISITED")
+
 label presence:
     menu:
         "Should I go to the altar?.":

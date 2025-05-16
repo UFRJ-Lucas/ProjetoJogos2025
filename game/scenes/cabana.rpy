@@ -23,7 +23,7 @@ label nature:
         "I am an urban person":
             voice "audio/narrador/cabana/04.wav"
             "There is no place like home."
-            jump home
+            jump house
 
         "Reconect with nature is something that I need":
             voice "audio/narrador/cabana/05.wav" 

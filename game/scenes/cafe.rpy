@@ -19,6 +19,7 @@ label cafe:
         "This was a place of..."
 
         "Bonding.":
+            $ memories_visited.add("CAFE_BONDING")
             voice "audio/narrador/cafe/04.wav" 
             "You often came here to spend time with friends and family. The memories of this place are undoubtedly a precious treasure."
 

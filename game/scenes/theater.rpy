@@ -82,6 +82,7 @@ label play:
             voice "audio/narrador/theater/32.wav"
             "Applause, lights, and scene."
 
+            $ memories_visited.add("THEATER_PLAY")
             $ play_saw = True
 
             jump after
