@@ -6,7 +6,7 @@ label plaza_day:
     with dissolve
     $ renpy.pause(0.3)
 
-    
+    $ memories_visited.add("PLAZA_NOTEBOOK") # memoria do caderno de rascunhos
     
     voice "audio/narrador/plaza/01.wav"
     "The sunlight is golden, almost heavy."

@@ -8,6 +8,7 @@ define p = Character("Protagonist")
 
 # The game starts here.
 
+default memories_visited = set()
 default count = 0
 default calling = True
 default body = True
