@@ -84,3 +84,4 @@ label bad_end_waiting:
     $ renpy.pause(1)
     play sound "audio/sfx/clue_sfx.wav"
     "{b}Ending 3 - Refusal{/b}"
+    return
