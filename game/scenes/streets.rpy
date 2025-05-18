@@ -2,7 +2,7 @@ label streets:
     play sound "audio/music/city_ambience.mp3" loop fadein 1.5 
 
     # Primeira piscada (rápida visão das ruas)
-    scene streets #botar o arquivo
+    scene streets
     with dissolve
     $ renpy.pause(0.3)
 

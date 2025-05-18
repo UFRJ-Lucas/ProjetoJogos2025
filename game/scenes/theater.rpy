@@ -2,7 +2,7 @@ label theater:
     play sound "audio/music/theater_ambience.mp3" loop fadein 1.5 #achar um arquivo
 
     # Primeira piscada (rápida visão do teatro)
-    scene theater #botar o arquivo
+    scene theater
     with dissolve
     $ renpy.pause(0.3)
 

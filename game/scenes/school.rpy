@@ -2,7 +2,7 @@ label school:
     play sound "audio/music/school_ambience.mp3" loop fadein 1.5 #achar um arquivo
 
     # Primeira piscada (rápida visão da escola)
-    scene school #botar o arquivo
+    scene school
     with dissolve
     $ renpy.pause(0.3)
 
