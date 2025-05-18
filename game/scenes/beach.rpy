@@ -86,7 +86,7 @@ label beach:
             window hide
             $ renpy.pause(1)
             play sound "audio/sfx/clue_sfx.wav"
-            "{b}Ending 4 - Freedom brought by the sea{/b}"
+            "{b}Ending 5 - Freedom brought by the sea{/b}"
 
         "I like to enjoy the view!":
             voice "audio/narrador/beach/18.wav" 

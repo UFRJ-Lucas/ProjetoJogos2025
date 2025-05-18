@@ -4,8 +4,9 @@
 # name of the character.
 
 define p = Character("Protagonist")
-
-
+define d = Character('Priest')
+image dom_visconti = "dom_visconti.png"
+image dom_visconti_talking = "dom_visconti_talking.png"
 # The game starts here.
 
 default count = 0
@@ -16,6 +17,8 @@ default road_peace = False
 default monologue = False
 default play_saw = False
 default went_home = False
+default dom = False
+default priest_name = False
 
 label start:
 

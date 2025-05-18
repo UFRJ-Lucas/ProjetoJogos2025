@@ -139,13 +139,13 @@ label limbo:
             jump limbo
         
         "Make it stop!" if count != 3:
-            voice "audio/narrador/hospital/17.wav"
+            voice "audio/narrador/hospital/18.wav"
             "But you don't know how"
             $ count += 1
             jump limbo
         
         "Is there hope?" if count == 3:
-            voice "audio/narrador/hospital/17.wav"
+            voice "audio/narrador/hospital/19.wav"
             "Now there is only eternity."
             jump bad_end_limbo
 
@@ -153,4 +153,4 @@ label bad_end_limbo:
     show black
     with dissolve
 
-    "{b}Ending 1 - Limbo{/b}"
+    "{b}Ending 2 - Limbo{/b}"
