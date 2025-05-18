@@ -77,7 +77,7 @@ label bad_end_locked:
     voice "audio/narrador/house/18.wav" # faltando
     "You can't remember your face. You can't remember your name. You can't remember your life."
 
-    "{b}Ending 8 - Locked Away{/b}"
+    "{b}Ending 10 - Locked Away{/b}"
     return
 
 label normal_end:

@@ -194,6 +194,7 @@ label priest:
 
             play sound "audio/sfx/clue_sfx.wav"
             "{b}Ending 8 - Divine Purge{/b}"
+            return
 
         "This is nonsense, I'm leaving.":
             show dom_visconti_talking
@@ -216,6 +217,7 @@ label priest:
 
             play sound "audio/sfx/clue_sfx.wav"
             "{b}Ending 9 - Unshackled and Forgiven{/b}"
+            return
 
         
     
