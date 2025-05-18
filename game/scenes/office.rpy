@@ -79,4 +79,4 @@ label office:
     window hide
     $ renpy.pause(1)
     play sound "audio/sfx/clue_sfx.wav"
-    "{b}Ending 5 - Work to do{/b}"
+    "{b}Ending 6 - Work to do{/b}"
