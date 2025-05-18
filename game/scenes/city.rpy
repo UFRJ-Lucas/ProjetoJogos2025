@@ -42,7 +42,7 @@ label center:
             "And you know a great place with this quality, that happens to be more relaxing."
             scene black
             with fade
-            jump plaza
+            jump plaza_day
 
         "Culture, what the city was and what it is now, they rhyme in the streets!":
             voice "audio/narrador/city/11.wav"

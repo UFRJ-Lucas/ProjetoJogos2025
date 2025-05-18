@@ -46,7 +46,7 @@ label drive:
         "I could use a walk at the plaza.":
             scene black
             with fade
-            jump plaza
+            jump plaza_day
 
         "Somewhere away from the city.":
             scene black
