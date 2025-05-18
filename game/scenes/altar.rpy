@@ -67,71 +67,71 @@ label priest:
     voice "audio/narrador/altar/13.wav"
     "Why he is like this is uncertain, you can't imagine why he would have such a reaction."
 
-    show dom_visconti_talking
+    show dom_visconti talking
     voice "audio/priest/altar/04.wav"
     d "Is that a trick? Or are you really here?"
     show dom_visconti
 
     menu:
         "I am right here, don't you see?":
-            show dom_visconti_talking
+            show dom_visconti talking
             voice "audio/priest/altar/05.wav"
             d "Are you? Show yourself! The power of Christ compels you!"
             show dom_visconti
 
         "Trick? What are you talking about?":
-            show dom_visconti_talking
+            show dom_visconti talking
             voice "audio/priest/altar/06.wav"
             d "Spirits cling to shadows. Especially the bitter ones"
             show dom_visconti
 
         "You remind me of someone I knew":
             $ dom = True
-            show dom_visconti_talking
+            show dom_visconti talking
             voice "audio/priest/altar/07.wav"
             d "You do not belong here..."
             show dom_visconti
 
     menu:
         "What are you saying? Are you insane?":
-            show dom_visconti_talking
+            show dom_visconti talking
             voice "audio/priest/altar/08.wav"
             d "Are you testing my faith wraith?"
             show dom_visconti
 
         "Am I dreaming about this?":
-            show dom_visconti_talking
+            show dom_visconti talking
             voice "audio/priest/altar/09.wav"
             d "Do not play the fool creature!"
             show dom_visconti
 
         "What is wrong? I don't get it.":
-            show dom_visconti_talking
+            show dom_visconti talking
             voice "audio/priest/altar/10.wav"
             d "This is the house of the living. The house of God. And you... are unwelcome."
             show dom_visconti
 
     menu:
         "You cannot treat me like this!":
-            show dom_visconti_talking
+            show dom_visconti talking
             voice "audio/priest/altar/11.wav"
             d "I will give you this chance, leave this sanctuary at once!"
             show dom_visconti
 
         "This is making no sense.":
-            show dom_visconti_talking
+            show dom_visconti talking
             voice "audio/priest/altar/12.wav"
             d "You wear a face that was once human, but your heart is long gone."
             show dom_visconti
 
         "You must be out of your mind, I'm not doing anything wrong.":
-            show dom_visconti_talking
+            show dom_visconti talking
             voice "audio/priest/altar/13.wav"
             d "I do not fear you. I will not allow you to remain in this world."
             show dom_visconti
 
         "I know you! From Sunday School" if dom:
-            show dom_visconti_talking
+            show dom_visconti talking
             voice "audio/priest/altar/14.wav"
             d "None of your tricks can affect a man from God!"
             show dom_visconti
@@ -142,13 +142,13 @@ label priest:
 
     menu:
         "Dom Visconti, from Sunday School!" if dom:
-            show dom_visconti_talking
+            show dom_visconti talking
             voice "audio/priest/altar/15.wav"
             d "Heavens! You indeed know my name!"
-            show dom_visconti_talking
+            show dom_visconti talking
             voice "audio/narrador/altar/16.wav"
             "The memories from that time are very strong now."
-            show dom_visconti_talking
+            show dom_visconti talking
             voice "audio/priest/altar/16.wav"
             d "Wait! Don't go yet!"
 
@@ -167,11 +167,11 @@ label priest:
             jump school   
 
         "Stop it please, you are scarying me.":
-            show dom_visconti_talking
+            show dom_visconti talking
             voice "audio/priest/altar/20.wav"
             d "You sought to be seen — now you are judged. In the name of the Father, begone!"
 
-            show dom_visconti_talking
+            show dom_visconti talking
             voice "audio/priest/altar/21.wav"
             d "Be cast out by the name above all names. Leave this sanctuary. Now"
             show dom_visconti
@@ -179,7 +179,7 @@ label priest:
             voice "audio/narrador/altar/15.wav"
             "He lifted the book. Opened it. Began to speak — not in anger, but with power."
             
-            show dom_visconti_talking
+            show dom_visconti talking
             voice "audio/priest/altar/17.wav"
             d "Deliver us from evil, oh father!"
 
@@ -197,19 +197,19 @@ label priest:
             return
 
         "This is nonsense, I'm leaving.":
-            show dom_visconti_talking
+            show dom_visconti talking
             voice "audio/priest/altar/18.wav"
             d "You are not 'leaving' this place."
             show dom_visconti
 
-            show dom_visconti_talking
+            show dom_visconti talking
             voice "audio/priest/altar/19.wav"
             d "Be banished from this world by the name above all names. Ashes to ashes, dust to dust. Return to the land of the lord now!"
 
             window hide
             $ renpy.pause(1)
 
-            hide dom_visconti_talking
+            hide dom_visconti talking
             $ renpy.pause(1)
 
             scene white
