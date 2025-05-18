@@ -96,7 +96,7 @@ label midnight:
             "Ironically, to get out of there, you need to skulk through those slumbering streets."
             scene black
             with fade
-            jump streets_night
+            jump streets
         "I was waiting an bus here. Those ones, that can not enter the terminal.":
             scene black
             with fade

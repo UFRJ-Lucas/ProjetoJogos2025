@@ -25,6 +25,7 @@ label road:
 
         "Peace":
             $ road_peace = True
+            $ memories_visited.add("FOGGY_ROAD") # memoria da estrada enevoada
 
             voice "audio/narrador/road/05.wav" 
             "You can't explain why, but the foggy road brings you some peace of mind. Perhaps it invokes a feeling of finality?"
@@ -83,3 +84,4 @@ label bad_end_waiting:
     $ renpy.pause(1)
     play sound "audio/sfx/clue_sfx.wav"
     "{b}Ending 3 - Refusal{/b}"
+    return

@@ -9,6 +9,7 @@ image dom_visconti = "dom_visconti.png"
 image dom_visconti_talking = "dom_visconti_talking.png"
 # The game starts here.
 
+default memories_visited = set()
 default count = 0
 default calling = True
 default body = True

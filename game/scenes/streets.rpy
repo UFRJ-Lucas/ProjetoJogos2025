@@ -26,7 +26,7 @@ label drive:
         "I wanna go home!":
             scene black
             with fade
-            jump room
+            jump house
 
         "To my job.":
             scene black
@@ -38,7 +38,6 @@ label drive:
             with fade
             jump school
 
-
         "There are some things I need to do in the city center.":
             scene black
             with fade
@@ -49,5 +48,7 @@ label drive:
             with fade
             jump plaza
 
-
-    
+        "Somewhere away from the city.":
+            scene black
+            with fade
+            jump cabana

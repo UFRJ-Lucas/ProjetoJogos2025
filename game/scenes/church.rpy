@@ -35,6 +35,8 @@ label church:
     voice "audio/narrador/church/08.wav"
     "You are not a vampire, you won't burn, but maybe you should move."
 
+    $ memories_visited.add("CHURCH_VISITED")
+
 label presence:
     menu:
         "Should I go to the altar?.":
@@ -53,7 +55,7 @@ label presence:
             "Nothing more fair than you wanting to go to your own."
             scene black
             with fade
-            jump room
+            jump house
 
         "I'm not feeling very well, I want to get out from here.":
             scene church

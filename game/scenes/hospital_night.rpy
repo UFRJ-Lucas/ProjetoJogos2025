@@ -154,3 +154,4 @@ label bad_end_limbo:
     with dissolve
 
     "{b}Ending 2 - Limbo{/b}"
+    return

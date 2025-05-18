@@ -82,6 +82,7 @@ label play:
             voice "audio/narrador/theater/32.wav"
             "Applause, lights, and scene."
 
+            $ memories_visited.add("THEATER_PLAY")
             $ play_saw = True
 
             jump after
@@ -215,7 +216,7 @@ label after:
                 "Is it worth double-checking if your eyes are now others?"
             scene black
             with fade
-            jump room
+            jump house
 
         "Why does the fun have to end?":
             voice "audio/narrador/theater/43.wav"
