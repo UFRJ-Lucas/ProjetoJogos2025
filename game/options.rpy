@@ -30,6 +30,15 @@ define config.version = "1.0"
 ## triple-quotes, and leave a blank line between paragraphs.
 
 define gui.about = _p("""
+This game was made by:
+
+- {b}Adriano Beringuy{b}
+
+- {b}Pedro Gadelha{b}
+
+- {b}Krsna Gusmão{b}
+
+- {b}Lucas Araujo Carvalho{b}
 """)
 
 

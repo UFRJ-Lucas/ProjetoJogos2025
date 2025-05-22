@@ -1,7 +1,7 @@
 label rooftops:
     stop sound fadeout 0.5 # sem som para essa cena
 
-    scene road_night
+    scene rooftops_day
     with dissolve
     $ renpy.pause(0.3)
 

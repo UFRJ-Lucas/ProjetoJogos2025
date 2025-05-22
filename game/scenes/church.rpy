@@ -72,7 +72,7 @@ label presence:
             "There is a little road in the backyard of the church, you should check it out."
             scene black
             with fade
-            jump graveyard
+            jump cemetery
         
         
         
